@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  autorization:
+    build: ./
+    ports:
+    - "80:8080"
